@@ -52,10 +52,12 @@ Figure -02 HALF Subtractor
 
 HALF ADDER PROGRAM:
 
+
 module half_adder (
-    input wire a,b,    //Inputs
+
+   input wire a,b,      //Inputs
     
-   output wire sum,    //Sum output
+   output wire sum,     //Sum output
     
    output wire carry    //Carry output
     
@@ -72,6 +74,7 @@ module half_adder (
    
 
 HALF SUBTRACTOR:
+
 
 module half_subtractor (
 
