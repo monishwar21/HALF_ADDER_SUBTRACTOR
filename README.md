@@ -76,22 +76,21 @@ module half_adder (
 
 2)HALF SUBTRACTOR:
 
-
 module half_subtractor (
-
-   input wire a, b,          //Inputs
      
-   output wire diff, borrow  //Outputs
+     input wire a, b,          //Inputs
      
-);
+     output wire diff, borrow  //Outputs
+    );
+     
+      // Logic equations 
+      
+      assign diff   = a ^ b;        //  XOR for difference
+      
+      assign borrow = ~a & b;       // Borrow when a < b
+      
+    endmodule
 
-   // Logic equations 
-      
-   assign diff   = a ^ b;        //  XOR for difference
-      
-   assign borrow = ~a & b;       // Borrow when a < b
-        
-endmodule
 
 
 
