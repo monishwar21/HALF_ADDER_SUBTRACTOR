@@ -50,7 +50,7 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-HALF ADDER PROGRAM:
+1)HALF ADDER PROGRAM:
 
 
 module half_adder (
@@ -71,9 +71,10 @@ module half_adder (
    assign Carry = a & b;    //AND for Carry
    
    endmodule
+
    
 
-HALF SUBTRACTOR:
+2)HALF SUBTRACTOR:
 
 
 module half_subtractor (
@@ -91,6 +92,8 @@ module half_subtractor (
    assign borrow = ~a & b;       // Borrow when a < b
         
 endmodule
+
+
 
 
 
